@@ -1,0 +1,155 @@
+
+<!DOCTYPE html><html data-critters-container="" lang="en" dir="ltr"><head><meta name="generator" content="Scully 0.0.0">
+    <meta charset="utf-8">
+    <title>Real Madrid CF | Real Madrid CF Oficial Website</title>
+    <base href="/">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="shortcut icon" type="image/svg" href="/favicon.svg">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48x48.png">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="manifest" href="/manifest.webmanifest">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="application-name" content="Real Madrid CF">
+    <link rel="yandex-tableau-widget" href="/yandex-browser-manifest.json">
+
+    <!-- Preload fonts -->
+    <link rel="preload" href="/RMNeue-Regular.woff2" as="font" type="font/woff2" crossorigin="">
+    <link rel="preload" href="/RMNeue-SemiBold.woff2" as="font" type="font/woff2" crossorigin="">
+    <link rel="preload" href="/RMNeue-Bold.woff2" as="font" type="font/woff2" crossorigin="">
+
+    <style id="loader-styles">
+      .sr-only {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(1px, 1px, 1px, 1px);
+        clip-path: inset(50%);
+        white-space: nowrap;
+        border: 0;
+      }
+
+      /* overriding the getFlashPreventionPlugin ap-root movement to avoid flashes */
+      body:not(.loaded) app-root {
+        display: block !important;
+      }
+      body app-root-scully {
+        display: none !important;
+      }
+
+      @keyframes rotate {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+
+      #rm-loader {
+        margin-bottom: 100vh;
+        display: none;
+      }
+      #rm-loader .spinner {
+        /* transform-origin: 300px 300px; */
+        animation-name: rotate;
+        animation-duration: 1200ms;
+        animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        animation-iteration-count: infinite;
+      }
+
+      .div--spinner__background {
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 99998;
+        width: 100vw;
+        height: 100vh;
+        user-select: none;
+        background-color: rgba(255, 255, 255, 0.75);
+        backdrop-filter: blur(30px);
+      }
+
+      .div--spinner__wrapper {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        z-index: 99999;
+        transform: translate(-50%, -50%);
+      }
+    </style>
+  <link rel="stylesheet" href="styles.7091c98642c71b1f.css" media="all" onload="this.media='all'"><noscript><link rel="stylesheet" href="styles.7091c98642c71b1f.css"></noscript><link rel="canonical" href="https://www.realmadrid.com/en-US"><meta name="title" content="Real Madrid CF | Real Madrid CF Oficial Website"><meta name="description" content="Official Real Madrid channel. All the Real Madrid information with news, players, ticket sales, member services and club information."><meta name="keywords" content="Real Madrid,home modular maxima"><meta name="news_keywords" content="Real Madrid,home modular maxima"><meta name="twitter:title" content="Real Madrid CF | Real Madrid CF Oficial Website"><meta name="twitter:description" content="Official Real Madrid channel. All the Real Madrid information with news, players, ticket sales, member services and club information."><meta name="twitter:card" content="summary_large_image"><meta name="twitter:site" content="@realmadrid"><meta name="twitter:image" content="https://publish-p47754-e237306.adobeaemcloud.com/content/dam/common/statics/public-content/internet/web/rm-spa-web/images/meta/twitter-image.png"><meta property="og:title" content="Real Madrid CF | Real Madrid CF Oficial Website"><meta property="og:description" content="Official Real Madrid channel. All the Real Madrid information with news, players, ticket sales, member services and club information."><meta property="og:site_name" content="Real Madrid CF | Real Madrid CF Oficial Website"><meta property="og:type" content="website"><meta property="og:image" content="https://publish-p47754-e237306.adobeaemcloud.com/content/dam/common/statics/public-content/internet/web/rm-spa-web/images/meta/og-image.png"><meta property="og:url" content="https://www.realmadrid.com/en-US"><script>window['ScullyIO']='generated';</script>
+<script type="text/javascript" id="scully-plugin-discount-flash-prevention">
+  function capt (ev) {
+	  if (document.documentElement.scrollTop === 0) {
+	  	document.documentElement.scrollTop = window['ScullyIO-scrollPosition'];
+	  }
+	  window['ScullyIO-scrollPosition'] = document.documentElement.scrollTop;
+	  document.addEventListener("AngularReady", detach);
+	};
+
+  function detach() {
+		window.removeEventListener('scroll', capt);
+		document.removeEventListener("AngularReady", detach);
+  };
+
+	window.addEventListener('scroll', capt);
+
+	window.addEventListener('AngularReady', scullyDiscountFlashPreventionContentScript);
+	function scullyDiscountFlashPreventionContentScript(){
+	  document.documentElement.scrollTop = window['ScullyIO-scrollPosition'];
+	  window.removeEventListener('scroll', capt);
+		document.body.classList.add('loaded');
+		const tempAppRoot = document.querySelector('app-root-scully');
+    tempAppRoot.parentNode.removeChild(tempAppRoot);
+    window.removeEventListener('AngularReady', scullyDiscountFlashPreventionContentScript);
+    window.dispatchEvent(new Event('FlashPreventionSwitchDone', {
+      bubbles: true,
+      cancelable: false
+    }))
+	}
+</script>
+<style type="text/css">
+	body:not(.loaded) app-root { display:none; }
+	body:not(.loaded) app-root-scully { display:inherit; }
+	body.loaded app-root { display:inherit; }
+  body.loaded app-root-scully { display:none; }
+</style>
+</head>
+
+  <body class="reset" scully-version="0.0.0" style="">
+    <div id="rm-loader" style="display: none">
+      <div class="div--spinner__background" data-qa="loading-spinner">
+        <div class="div--spinner__wrapper">
+          <svg xmlns="http://www.w3.org/2000/svg" version="1.1" height="150" width="150" x="0" y="0" viewBox="0 0 600 600" class="spinner">
+            <defs>
+              <linearGradient id="Gradient1" gradientTransform="rotate(90)">
+                <stop offset="0%" stop-color="rgba(88, 38, 250, 1)"></stop>
+                <stop offset="100%" stop-color="rgba(88, 38, 250, 0.65)"></stop>
+              </linearGradient>
+              <linearGradient id="Gradient2" gradientTransform="rotate(90)">
+                <stop offset="0%" stop-color="rgba(38, 115, 252, 1)"></stop>
+                <stop offset="100%" stop-color="rgba(88, 38, 250, 0.65)"></stop>
+              </linearGradient>
+              <pattern id="Pattern" x="0" y="0" width="600" height="600" patternUnits="userSpaceOnUse">
+                <g transform="rotate(0, 300, 300)">
+                  <rect shape-rendering="crispEdges" x="0" y="0" width="300" height="600" fill="url(#Gradient1)"></rect>
+                  <rect shape-rendering="crispEdges" x="300" y="0" width="300" height="600" fill="url(#Gradient2)"></rect>
+                </g>
+              </pattern>
+            </defs>
+            <path class="rotating" style="stroke: url(#Pattern)" fill="transparent" transform="rotate(105, 300, 300)" stroke-width="40" stroke-linecap="round" d="M 364 58 A 250 250 0 1 1 235 58"></path>
+          </svg>
+        </div>
+      </div>
+    </div>
+    <app-root rm-version="6.3.5" rm-lib-parent-version="5.1.0" rm-lib-rest-version="3.1.0" rm-lib-rest-adobe-version="3.1.6" rm-lib-rest-apim-version="3.1.3" rm-l
+  <script id="ScullyIO-transfer-state"></script><script src="runtime.940eaa9f5139823a.js" type="module"></script><script src="polyfills.3df47691d9b98ad8.js" type="module"></script><script src="main.32b3ceb2bab1a702.js" type="module"></script>
+
+</body></html>
